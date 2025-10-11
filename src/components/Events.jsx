@@ -11,7 +11,7 @@ const Events = () => {
     const maskTimeline = gsap.timeline({
       scrollTrigger: {
         trigger: '#events',
-        start: `${isMobile ? 'top 80%' : 'top 60%'}`,
+        start: `${isMobile ? 'top 90%' : 'top 60%'}`,
         toggleActions: 'play none none reverse',
       }
     })

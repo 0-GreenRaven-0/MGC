@@ -43,7 +43,7 @@ const About = () => {
     })
 
     return (
-        <div id='about' className=' p-0 pt-20 bg-gradient-to-tr from-background relative flex-center-col'>
+        <div id='about' className='min-h-screen p-0 pt-20 bg-gradient-to-tr from-background relative flex-center-col'>
             <h1 className='will-fade absolute top-50 max-md:top-40 lg:top-20'>What is MGC?</h1>
             <div className='content about-bg masked-img sm:[mask-size:31%] lg:[mask-size:25%] lg:[mask-position:center_30%] w-full'>
                 {/* mask image */}

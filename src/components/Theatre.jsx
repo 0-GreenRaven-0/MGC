@@ -126,7 +126,7 @@ const Theatre = ({ leftCurtainColor = '#3b82f6', rightCurtainColor = '#22c55e' }
       <div className="absolute top-0 right-4 w-6 h-8 bg-gradient-to-b from-amber-600 to-amber-800 rounded-b-lg z-20" />
 
       {/* ---------------- Content ---------------- */}
-      <div className="lg:h-screen flex flex-col justify-center items-center text-white">
+      <div className="lg:h-screen pt-20 lg:pt-0  flex flex-col justify-center items-center text-white">
         {/* Title */}
         <AppearOnScroll animationClass="shiftUp" delay={600}>
           <div className="flex items-center">
