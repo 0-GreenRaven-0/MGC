@@ -33,7 +33,7 @@ const Hero = () => {
       <p className='hero-title lg:z-100 lg:w-200'>Your Kind of Happy Place Where Passion Meets Results!</p>
       <br/>
       <div className="hero-content">
-      <p className="hero-p lg:z-100 lg:w-[55%]">This is the place where you and your kids can enjoy and learn new physical and educational activities!</p>
+      <p className="hero-p lg:z-100 lg:w-[55%] ">This is the place where you and your kids can enjoy and learn new physical and educational activities!</p>
       <br/>
       <a href="#activities" className="btn1 hero-btn">See our Activities <FaArrowDown/></a>
       </div>
